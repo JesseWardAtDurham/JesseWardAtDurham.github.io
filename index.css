@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#authors {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;   
+    margin-bottom: 40px;
+}
+
+#intro {
+    margin: 10px;
+}
