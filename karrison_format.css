@@ -18,6 +18,9 @@ ul {
     display: block;
     margin: 0 auto;
 }
+body {
+    height: 100%
+}
 footer {
     display: block;
     background-color: #ff6347;
