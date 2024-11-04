@@ -6,6 +6,8 @@
     <title>How Computers Aid Education</title>
     <!--Link CSS File-->
     <link href = "joe.css" rel = "stylesheet">
+    <!--Link JavaScript File-->
+    <script src = "joe.js"></script>
 </head>
 <body>
     
@@ -40,19 +42,40 @@
 
       <h1>Improvements In education</h1>
       <p class = "information">Computers have had a huge impact in education. Digital technologies have provided an interactive way for students to learn and developer their understanding. An example of this is the incomprehensibly important use of computers during the COVID-19 lockdowns. These devices allowed children to stay safe whilst learning as if they were still at school. </p>
+      <h2>Statistics:</h2>
       <ol class = "information">
         <li>Approximately 99% of UK schools have internet access</li>
         <li>At least 80% of students in secondary school use devices as part of their learning</li>
         <li>Over 70% of teachers think technology enhances student engagement</li>
       </ol>
 
-      <img id = "computers" src = "schoolcomputers.jpg">
+      <img alt = "school computers image" id = "computers" src = "schoolcomputers.jpg">
 
-
+      <div id = "form">
+        <p id = "formDetail">How much do you use computers in your education?</form>
+        <form>
+          <input value = "5" name = "quant" type = "radio">
+          <label for = "5">All the time</label>
+          <br>
+          <input value = "4" name = "quant" type = "radio">
+          <label for = "4">Often</label>
+          <br>
+          <input value = "3" name = "quant" type = "radio">
+          <label for = "3">Occasionally</label>
+          <br>
+          <input value = "2" name = "quant" type = "radio">
+          <label for = "2">Rarely</label>
+          <br>
+          <input value = "1" name = "quant" type = "radio">
+          <label for = "1">Never</label>
+          <br>
+          <input onclick = "window.submit()" id = "submitButton" type = "submit" value = "submit">
+        </form>
+      </div>
 
     <div id = "footer">
-        <a target = "_blank" href = "https://www.linkedin.com/in/joe-baker-207927335/"><img id = "linkedIn" src = "LinkedIn.png"></a>
-        <p class = "footText">Author: Joe Baker</p>
+        
+        <p class = "footText">Author: Joe Baker   <a target = "_blank" alt="linkedIn Logo" href = "https://www.linkedin.com/in/joe-baker-207927335/"><img id = "linkedIn" src = "LinkedIn.png"></a></p>
     </div>
 </body>
 </html>
