@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #DBDBDB;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #DBDBDB;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.subtitle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#intro_block {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.EDAS {
+    background-color: #DBDBDB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.EDAS h4{
+    text-align: center;
+}
