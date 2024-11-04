@@ -2,6 +2,9 @@ body {
     height: 100%;
     background-color: hsl(310, 43%, 69%) !important;
 }
+.navbar {
+    background-color: hsl(310,43%,69%);
+}
 h1 {
     text-align: center;
     padding-bottom: 30px;
